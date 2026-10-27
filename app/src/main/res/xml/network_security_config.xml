@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android's network security config cannot express IP ranges, so cleartext HTTP is allowed here
+  (the ESP32-CAM serves plain HTTP) and the real restriction is enforced in code:
+  net/LanGuard.kt refuses any non-private address, and net/InternetBlocker.kt blocks and counts
+  every other outgoing connection made through java.net.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

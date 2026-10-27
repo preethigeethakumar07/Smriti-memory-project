@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- carbon panel with a blue-to-red edge, like the app's cut-corner bar -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:angle="0" android:startColor="#4AA8FF" android:centerColor="#263042" android:endColor="#E4262C" />
+            <corners android:radius="22dp" />
+        </shape>
+    </item>
+    <item android:top="1.5dp" android:bottom="1.5dp" android:left="1.5dp" android:right="1.5dp">
+        <shape android:shape="rectangle">
+            <gradient android:angle="270" android:startColor="#1A2333" android:endColor="#07090D" />
+            <corners android:radius="20.5dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,7 @@
+v0.3.4  2026-10-08 16:17  Racing theme, Live mode with iris dial, chat home, tabbed sensors
+v0.3.5  2026-10-08 17:22  Voice fixed (system fallback), COCO object detector, search with synonyms, detection tags in Live
+v0.3.6  2026-10-09 01:52  Scenes, place+time answers, COCO detector, Hindi + Indian-language voice, haptics, Privacy tab, widget, Hey Smriti, eye bubble, Space tab + spatial navigation
+v1.0.8  2026-10-10 02:55  Smriti-v1.0.8-20261010-0255.apk  commit eb507dd  dashboard theme, voice ears, language, actions
+v1.0.8  2026-10-10 03:15  Smriti-v1.0.8-20261010-0315.apk  commit d737c1c  NPU live status, voice ears, language, actions, dashboard theme
+(the 02:55 build was removed: it was compiled while sources were changing; 03:15 supersedes it)
+v1.0.8  2026-10-10 03:40  Smriti-v1.0.8-20261010-0340.apk  commit a464cb6  AI models import screen, voice fallback notice, NPU live status

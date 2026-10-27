@@ -1,0 +1,15 @@
+<resources>
+    <!-- Used after the splash; Compose draws the real theme. -->
+    <style name="Theme.Smriti" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/ic_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Android 12+ system splash with the Smriti eye. -->
+    <style name="Theme.Smriti.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ic_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Smriti</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/w_ask"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/widget_btn"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ic_w_mic" android:contentDescription="Ask Smriti" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ask" android:textColor="#FFFFFF" android:textSize="12sp" android:textStyle="bold" />
+    </LinearLayout>
+
+    <View android:layout_width="8dp" android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/w_phone"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/widget_btn"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ic_w_camera" android:contentDescription="Phone camera" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Phone" android:textColor="#FFFFFF" android:textSize="12sp" android:textStyle="bold" />
+    </LinearLayout>
+
+    <View android:layout_width="8dp" android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/w_glasses"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/widget_btn"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ic_w_glasses" android:contentDescription="Smart glasses" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Glasses" android:textColor="#FFFFFF" android:textSize="12sp" android:textStyle="bold" />
+    </LinearLayout>
+
+    <View android:layout_width="8dp" android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/w_cctv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/widget_btn"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ic_w_cctv" android:contentDescription="CCTV AI" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CCTV" android:textColor="#FFFFFF" android:textSize="12sp" android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
